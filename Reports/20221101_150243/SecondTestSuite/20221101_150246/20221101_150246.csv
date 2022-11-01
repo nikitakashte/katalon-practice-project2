@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SecondTestSuite,,,,2022-11-01 15:02:52,2022-11-01 15:03:05,12.271s,FAILED
+,,,,,,,
+Test Cases/TestCaseOnOrangeHrmPage,,,,2022-11-01 15:03:03,2022-11-01 15:03:05,1.314s,FAILED
+"openBrowser(""https://opensource-demo.orangehrmlive.com/"")",,,,2022-11-01 15:03:03,2022-11-01 15:03:05,1.291s,FAILED

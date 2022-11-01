@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="FirstTestSuite" time="66.595" tests="2" failures="0" errors="0">
+   <testsuite name="FirstTestSuite" tests="2" failures="0" errors="0" time="66.595" skipped="0" timestamp="2022-11-01 15:02:52" hostname="Nikita.K - A4G618-PC.afourtech.pune" id="Test Suites/FirstTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Nikita.K\\Desktop\\katalon-practice-test\\Reports\\20221101_150243\\FirstTestSuite\\20221101_150244"/>
+         <property name="logFiles" value="C:\\Users\\Nikita.K\\Desktop\\katalon-practice-test\\Reports\\20221101_150243\\FirstTestSuite\\20221101_150244\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Nikita.K - A4G618-PC.afourtech.pune"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.1.208"/>
+         <property name="browser" value="Chrome 106.0.0.0"/>
+         <property name="hostAddress" value="192.168.71.105"/>
+         <property name="sessionId" value="d76be8502034af1c47104ac9a1faee24"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TestCaseLogInPage" time="41.234" classname="Test Cases/TestCaseLogInPage" status="PASSED">
+         <system-out><![CDATA[2022-11-01 15:02:53 - [TEST_CASE][PASSED] - Test Cases/TestCaseLogInPage: Test Cases/TestCaseLogInPage
+
+2022-11-01 15:02:53 - [TEST_STEP][PASSED] - openBrowser("https://rahulshettyacademy.com/AutomationPractice/ "): Browser is opened with url: 'https://rahulshettyacademy.com/AutomationPractice/ '
+
+2022-11-01 15:02:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-01 15:02:54 - [MESSAGE][INFO] - Action delay is set to 2,000 milliseconds
+
+2022-11-01 15:03:05 - [MESSAGE][PASSED] - Browser is opened with url: 'https://rahulshettyacademy.com/AutomationPractice/ '
+
+2022-11-01 15:03:05 - [TEST_STEP][PASSED] - waitForPageLoad(20): Wait for page load successfully
+
+2022-11-01 15:03:06 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-11-01 15:03:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Practice Page/button_Home")): Object: 'Object Repository/Page_Practice Page/button_Home' is clicked on
+
+2022-11-01 15:03:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Practice Page/button_Home' is clicked on
+
+2022-11-01 15:03:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Rahul Shetty Academy/a_Login")): Object: 'Object Repository/Page_Rahul Shetty Academy/a_Login' is clicked on
+
+2022-11-01 15:03:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Rahul Shetty Academy/a_Login' is clicked on
+
+2022-11-01 15:03:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Rahul Shetty Academy/input_Email_email"), "abc@gmail.com"): Text 'abc@gmail.com' is set on object 'Object Repository/Page_Rahul Shetty Academy/input_Email_email'
+
+2022-11-01 15:03:25 - [MESSAGE][PASSED] - Text 'abc@gmail.com' is set on object 'Object Repository/Page_Rahul Shetty Academy/input_Email_email'
+
+2022-11-01 15:03:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Rahul Shetty Academy/input_Password_password"), "ppqr@123"): Text 'ppqr@123' is set on object 'Object Repository/Page_Rahul Shetty Academy/input_Password_password'
+
+2022-11-01 15:03:30 - [MESSAGE][PASSED] - Text 'ppqr@123' is set on object 'Object Repository/Page_Rahul Shetty Academy/input_Password_password'
+
+2022-11-01 15:03:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Rahul Shetty Academy/input_Forgot Password_commit")): Object: 'Object Repository/Page_Rahul Shetty Academy/input_Forgot Password_commit' is clicked on
+
+2022-11-01 15:03:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Rahul Shetty Academy/input_Forgot Password_commit' is clicked on
+
+2022-11-01 15:03:33 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-11-01 15:03:34 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TestCaseOnDemoPage" time="24.775" classname="Test Cases/TestCaseOnDemoPage" status="PASSED">
+         <system-out><![CDATA[2022-11-01 15:03:34 - [TEST_CASE][PASSED] - Test Cases/TestCaseOnDemoPage: Test Cases/TestCaseOnDemoPage
+
+2022-11-01 15:03:34 - [TEST_STEP][PASSED] - openBrowser("https://rahulshettyacademy.com/AutomationPractice/"): Browser is opened with url: 'https://rahulshettyacademy.com/AutomationPractice/'
+
+2022-11-01 15:03:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-01 15:03:34 - [MESSAGE][INFO] - Action delay is set to 2,000 milliseconds
+
+2022-11-01 15:03:43 - [MESSAGE][PASSED] - Browser is opened with url: 'https://rahulshettyacademy.com/AutomationPractice/'
+
+2022-11-01 15:03:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Practice Page/legend_Radio Button Example"), 20): Object 'Object Repository/Page_Practice Page/legend_Radio Button Example' is present
+
+2022-11-01 15:03:44 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Practice Page/legend_Radio Button Example' is present
+
+2022-11-01 15:03:44 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Page_Practice Page/input_Radio1_radioButton"), 20): Object 'Object Repository/Page_Practice Page/input_Radio1_radioButton' is clickable
+
+2022-11-01 15:03:44 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Practice Page/input_Radio1_radioButton' is clickable
+
+2022-11-01 15:03:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Practice Page/input_Radio1_radioButton")): Object: 'Object Repository/Page_Practice Page/input_Radio1_radioButton' is clicked on
+
+2022-11-01 15:03:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Practice Page/input_Radio1_radioButton' is clicked on
+
+2022-11-01 15:03:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Practice Page/legend_Suggession Class Example"), 20): Object 'Object Repository/Page_Practice Page/legend_Suggession Class Example' is present
+
+2022-11-01 15:03:47 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Practice Page/legend_Suggession Class Example' is present
+
+2022-11-01 15:03:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Practice Page/input_Suggession Class Example_autocomplete"), "India"): Text 'India' is set on object 'Object Repository/Page_Practice Page/input_Suggession Class Example_autocomplete'
+
+2022-11-01 15:03:52 - [MESSAGE][PASSED] - Text 'India' is set on object 'Object Repository/Page_Practice Page/input_Suggession Class Example_autocomplete'
+
+2022-11-01 15:03:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Practice Page/legend_Checkbox Example"), 20): Object 'Object Repository/Page_Practice Page/legend_Checkbox Example' is present
+
+2022-11-01 15:03:53 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Practice Page/legend_Checkbox Example' is present
+
+2022-11-01 15:03:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Practice Page/input_Option1_checkBoxOption1")): Object: 'Object Repository/Page_Practice Page/input_Option1_checkBoxOption1' is clicked on
+
+2022-11-01 15:03:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Practice Page/input_Option1_checkBoxOption1' is clicked on
+
+2022-11-01 15:03:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Practice Page/select_Select                     Option1                    Option2                    Option3")): Object: 'Object Repository/Page_Practice Page/select_Select                     Option1                    Option2                    Option3' is clicked on
+
+2022-11-01 15:03:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Practice Page/select_Select                     Option1                    Option2                    Option3' is clicked on
+
+2022-11-01 15:03:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-11-01 15:03:59 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-11-01 15:02:52 - [TEST_SUITE][PASSED] - FirstTestSuite: Test Cases/TestCaseOnDemoPage]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

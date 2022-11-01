@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+FirstTestSuite,Chrome 106.0.0.0,,,2022-11-01 15:02:52,2022-11-01 15:03:59,1m - 6.595s,PASSED
+,,,,,,,
+Test Cases/TestCaseLogInPage,Chrome 106.0.0.0,,,2022-11-01 15:02:53,2022-11-01 15:03:34,41.234s,PASSED
+"openBrowser(""https://rahulshettyacademy.com/AutomationPractice/ "")",Chrome 106.0.0.0,,,2022-11-01 15:02:53,2022-11-01 15:03:05,12.019s,PASSED
+waitForPageLoad(20),Chrome 106.0.0.0,,,2022-11-01 15:03:05,2022-11-01 15:03:06,0.863s,PASSED
+"click(findTestObject(""Object Repository/Page_Practice Page/button_Home""))",Chrome 106.0.0.0,,,2022-11-01 15:03:06,2022-11-01 15:03:10,3.990s,PASSED
+"click(findTestObject(""Object Repository/Page_Rahul Shetty Academy/a_Login""))",Chrome 106.0.0.0,,,2022-11-01 15:03:10,2022-11-01 15:03:19,8.633s,PASSED
+"setText(findTestObject(""Object Repository/Page_Rahul Shetty Academy/input_Email_email""), ""abc@gmail.com"")",Chrome 106.0.0.0,,,2022-11-01 15:03:19,2022-11-01 15:03:25,6.449s,PASSED
+"setText(findTestObject(""Object Repository/Page_Rahul Shetty Academy/input_Password_password""), ""ppqr@123"")",Chrome 106.0.0.0,,,2022-11-01 15:03:25,2022-11-01 15:03:30,4.988s,PASSED
+"click(findTestObject(""Object Repository/Page_Rahul Shetty Academy/input_Forgot Password_commit""))",Chrome 106.0.0.0,,,2022-11-01 15:03:30,2022-11-01 15:03:33,2.606s,PASSED
+closeBrowser(),Chrome 106.0.0.0,,,2022-11-01 15:03:33,2022-11-01 15:03:34,0.856s,PASSED
+,,,,,,,
+Test Cases/TestCaseOnDemoPage,Chrome 106.0.0.0,,,2022-11-01 15:03:34,2022-11-01 15:03:59,24.775s,PASSED
+"openBrowser(""https://rahulshettyacademy.com/AutomationPractice/"")",Chrome 106.0.0.0,,,2022-11-01 15:03:34,2022-11-01 15:03:43,9.209s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Practice Page/legend_Radio Button Example""), 20)",Chrome 106.0.0.0,,,2022-11-01 15:03:43,2022-11-01 15:03:44,0.482s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/Page_Practice Page/input_Radio1_radioButton""), 20)",Chrome 106.0.0.0,,,2022-11-01 15:03:44,2022-11-01 15:03:44,0.435s,PASSED
+"click(findTestObject(""Object Repository/Page_Practice Page/input_Radio1_radioButton""))",Chrome 106.0.0.0,,,2022-11-01 15:03:44,2022-11-01 15:03:47,2.483s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Practice Page/legend_Suggession Class Example""), 20)",Chrome 106.0.0.0,,,2022-11-01 15:03:47,2022-11-01 15:03:47,0.383s,PASSED
+"setText(findTestObject(""Object Repository/Page_Practice Page/input_Suggession Class Example_autocomplete""), ""India"")",Chrome 106.0.0.0,,,2022-11-01 15:03:47,2022-11-01 15:03:52,4.805s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Practice Page/legend_Checkbox Example""), 20)",Chrome 106.0.0.0,,,2022-11-01 15:03:52,2022-11-01 15:03:53,0.803s,PASSED
+"click(findTestObject(""Object Repository/Page_Practice Page/input_Option1_checkBoxOption1""))",Chrome 106.0.0.0,,,2022-11-01 15:03:53,2022-11-01 15:03:55,2.478s,PASSED
+"click(findTestObject(""Object Repository/Page_Practice Page/select_Select                     Option1                    Option2                    Option3""))",Chrome 106.0.0.0,,,2022-11-01 15:03:55,2022-11-01 15:03:58,2.477s,PASSED
+closeBrowser(),Chrome 106.0.0.0,,,2022-11-01 15:03:58,2022-11-01 15:03:59,0.815s,PASSED

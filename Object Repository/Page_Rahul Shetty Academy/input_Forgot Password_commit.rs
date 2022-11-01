@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Forgot Password_commit</name>
+   <tag></tag>
+   <elementGuidId>f07788df-91c1-4b76-aeb8-f13aac40ff76</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>input[name=&quot;commit&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@name='commit']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>671764c7-4e21-46b9-b9d3-4c5592272739</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>55627f71-fb0e-4b44-b6ca-cd5b4c4cf688</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>commit</value>
+      <webElementGuid>056ea30f-193f-4076-a8be-89f07615139e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Log in</value>
+      <webElementGuid>a45e7b08-3e44-4b1a-8b11-bee105535b9f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn-primary button p-v-2-xs p-h-5-xs m-v-3-xs col-12-xs</value>
+      <webElementGuid>ebe57211-088b-414f-8fab-2bbb954bd8eb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>login-button</value>
+      <webElementGuid>64d519e3-2d74-476c-8850-31508add13e6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-disable-with</name>
+      <type>Main</type>
+      <value>Log in</value>
+      <webElementGuid>e2c3146b-203b-40f5-92f9-5728e2a21500</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;dsp-flex-xs flex-direction-column identity-layout&quot;]/main[@class=&quot;p-v-5-m&quot;]/div[@class=&quot;container m-auto-xs col-4-l col-5-m col-10-xs p-h-6-l&quot;]/form[@class=&quot;recaptcha-protected password-form&quot;]/div[@class=&quot;dsp-flex-xs flex-justify-content-center-xs&quot;]/input[@class=&quot;btn-primary button p-v-2-xs p-h-5-xs m-v-3-xs col-12-xs&quot;]</value>
+      <webElementGuid>cd7e8f64-157c-416f-92b1-b5e32ca68912</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@name='commit']</value>
+      <webElementGuid>093a0bd6-acd8-47de-ae13-62f8971e5c65</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/input</value>
+      <webElementGuid>42fe6277-bf6e-4828-8fac-8f7adb33d339</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'submit' and @name = 'commit']</value>
+      <webElementGuid>913e022e-e558-4463-a9f5-db5e971d9e13</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

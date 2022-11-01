@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="FirstTestSuiteCollection" time="70.661" tests="3" failures="1" errors="0">
+   <testsuite name="FirstTestSuite" tests="2" failures="0" errors="0" time="66.595" skipped="0" timestamp="2022-11-01 15:02:52" hostname="Nikita.K - A4G618-PC.afourtech.pune" id="Test Suites/FirstTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Nikita.K\\Desktop\\katalon-practice-test\\Reports\\20221101_150243\\FirstTestSuite\\20221101_150244"/>
+         <property name="logFiles" value="C:\\Users\\Nikita.K\\Desktop\\katalon-practice-test\\Reports\\20221101_150243\\FirstTestSuite\\20221101_150244\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Nikita.K - A4G618-PC.afourtech.pune"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.1.208"/>
+         <property name="browser" value="Chrome 106.0.0.0"/>
+         <property name="hostAddress" value="192.168.71.105"/>
+         <property name="sessionId" value="d76be8502034af1c47104ac9a1faee24"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TestCaseLogInPage" time="41.234" classname="Test Cases/TestCaseLogInPage" status="PASSED">
+         <system-out><![CDATA[2022-11-01 15:02:53 - [TEST_CASE][PASSED] - Test Cases/TestCaseLogInPage: Test Cases/TestCaseLogInPage
+
+2022-11-01 15:02:53 - [TEST_STEP][PASSED] - openBrowser("https://rahulshettyacademy.com/AutomationPractice/ "): Browser is opened with url: 'https://rahulshettyacademy.com/AutomationPractice/ '
+
+2022-11-01 15:02:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-01 15:02:54 - [MESSAGE][INFO] - Action delay is set to 2,000 milliseconds
+
+2022-11-01 15:03:05 - [MESSAGE][PASSED] - Browser is opened with url: 'https://rahulshettyacademy.com/AutomationPractice/ '
+
+2022-11-01 15:03:05 - [TEST_STEP][PASSED] - waitForPageLoad(20): Wait for page load successfully
+
+2022-11-01 15:03:06 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-11-01 15:03:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Practice Page/button_Home")): Object: 'Object Repository/Page_Practice Page/button_Home' is clicked on
+
+2022-11-01 15:03:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Practice Page/button_Home' is clicked on
+
+2022-11-01 15:03:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Rahul Shetty Academy/a_Login")): Object: 'Object Repository/Page_Rahul Shetty Academy/a_Login' is clicked on
+
+2022-11-01 15:03:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Rahul Shetty Academy/a_Login' is clicked on
+
+2022-11-01 15:03:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Rahul Shetty Academy/input_Email_email"), "abc@gmail.com"): Text 'abc@gmail.com' is set on object 'Object Repository/Page_Rahul Shetty Academy/input_Email_email'
+
+2022-11-01 15:03:25 - [MESSAGE][PASSED] - Text 'abc@gmail.com' is set on object 'Object Repository/Page_Rahul Shetty Academy/input_Email_email'
+
+2022-11-01 15:03:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Rahul Shetty Academy/input_Password_password"), "ppqr@123"): Text 'ppqr@123' is set on object 'Object Repository/Page_Rahul Shetty Academy/input_Password_password'
+
+2022-11-01 15:03:30 - [MESSAGE][PASSED] - Text 'ppqr@123' is set on object 'Object Repository/Page_Rahul Shetty Academy/input_Password_password'
+
+2022-11-01 15:03:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Rahul Shetty Academy/input_Forgot Password_commit")): Object: 'Object Repository/Page_Rahul Shetty Academy/input_Forgot Password_commit' is clicked on
+
+2022-11-01 15:03:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Rahul Shetty Academy/input_Forgot Password_commit' is clicked on
+
+2022-11-01 15:03:33 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-11-01 15:03:34 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TestCaseOnDemoPage" time="24.775" classname="Test Cases/TestCaseOnDemoPage" status="PASSED">
+         <system-out><![CDATA[2022-11-01 15:03:34 - [TEST_CASE][PASSED] - Test Cases/TestCaseOnDemoPage: Test Cases/TestCaseOnDemoPage
+
+2022-11-01 15:03:34 - [TEST_STEP][PASSED] - openBrowser("https://rahulshettyacademy.com/AutomationPractice/"): Browser is opened with url: 'https://rahulshettyacademy.com/AutomationPractice/'
+
+2022-11-01 15:03:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-01 15:03:34 - [MESSAGE][INFO] - Action delay is set to 2,000 milliseconds
+
+2022-11-01 15:03:43 - [MESSAGE][PASSED] - Browser is opened with url: 'https://rahulshettyacademy.com/AutomationPractice/'
+
+2022-11-01 15:03:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Practice Page/legend_Radio Button Example"), 20): Object 'Object Repository/Page_Practice Page/legend_Radio Button Example' is present
+
+2022-11-01 15:03:44 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Practice Page/legend_Radio Button Example' is present
+
+2022-11-01 15:03:44 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Page_Practice Page/input_Radio1_radioButton"), 20): Object 'Object Repository/Page_Practice Page/input_Radio1_radioButton' is clickable
+
+2022-11-01 15:03:44 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Practice Page/input_Radio1_radioButton' is clickable
+
+2022-11-01 15:03:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Practice Page/input_Radio1_radioButton")): Object: 'Object Repository/Page_Practice Page/input_Radio1_radioButton' is clicked on
+
+2022-11-01 15:03:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Practice Page/input_Radio1_radioButton' is clicked on
+
+2022-11-01 15:03:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Practice Page/legend_Suggession Class Example"), 20): Object 'Object Repository/Page_Practice Page/legend_Suggession Class Example' is present
+
+2022-11-01 15:03:47 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Practice Page/legend_Suggession Class Example' is present
+
+2022-11-01 15:03:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Practice Page/input_Suggession Class Example_autocomplete"), "India"): Text 'India' is set on object 'Object Repository/Page_Practice Page/input_Suggession Class Example_autocomplete'
+
+2022-11-01 15:03:52 - [MESSAGE][PASSED] - Text 'India' is set on object 'Object Repository/Page_Practice Page/input_Suggession Class Example_autocomplete'
+
+2022-11-01 15:03:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Practice Page/legend_Checkbox Example"), 20): Object 'Object Repository/Page_Practice Page/legend_Checkbox Example' is present
+
+2022-11-01 15:03:53 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Practice Page/legend_Checkbox Example' is present
+
+2022-11-01 15:03:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Practice Page/input_Option1_checkBoxOption1")): Object: 'Object Repository/Page_Practice Page/input_Option1_checkBoxOption1' is clicked on
+
+2022-11-01 15:03:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Practice Page/input_Option1_checkBoxOption1' is clicked on
+
+2022-11-01 15:03:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Practice Page/select_Select                     Option1                    Option2                    Option3")): Object: 'Object Repository/Page_Practice Page/select_Select                     Option1                    Option2                    Option3' is clicked on
+
+2022-11-01 15:03:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Practice Page/select_Select                     Option1                    Option2                    Option3' is clicked on
+
+2022-11-01 15:03:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-11-01 15:03:59 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-11-01 15:02:52 - [TEST_SUITE][PASSED] - FirstTestSuite: Test Cases/TestCaseOnDemoPage]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="SecondTestSuite" tests="1" failures="1" errors="0" time="12.271" skipped="0" timestamp="2022-11-01 15:02:52" hostname="Nikita.K - A4G618-PC.afourtech.pune" id="Test Suites/SecondTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Nikita.K\\Desktop\\katalon-practice-test\\Reports\\20221101_150243\\SecondTestSuite\\20221101_150246"/>
+         <property name="logFiles" value="C:\\Users\\Nikita.K\\Desktop\\katalon-practice-test\\Reports\\20221101_150243\\SecondTestSuite\\20221101_150246\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Nikita.K - A4G618-PC.afourtech.pune"/>
+         <property name="hostAddress" value="192.168.71.105"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.1.208"/>
+      </properties>
+      <testcase name="Test Cases/TestCaseOnOrangeHrmPage" time="1.314" classname="Test Cases/TestCaseOnOrangeHrmPage" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TestCaseOnOrangeHrmPage FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'https://opensource-demo.orangehrmlive.com/'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at TestCaseOnOrangeHrmPage.run(TestCaseOnOrangeHrmPage:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667295166589.run(TempTestSuite1667295166589.groovy:36)
+Caused by: org.openqa.selenium.SessionNotCreatedException: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 105
+Current browser version is 107.0.1418.26 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'A4G618-PC', ip: '192.168.71.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: driver.version: CEdgeDriver
+remote stacktrace: Backtrace:
+	Microsoft::Applications::Events::EventProperties::SetProperty [0x00007FF755982352+17554]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF75591ECA2+1438690]
+	Ordinal0 [0x00007FF755549345+627525]
+	Ordinal0 [0x00007FF7555773D4+816084]
+	Ordinal0 [0x00007FF7555728B3+796851]
+	Ordinal0 [0x00007FF75556D9F0+776688]
+	Ordinal0 [0x00007FF7555A969F+1021599]
+	Ordinal0 [0x00007FF7555A3A43+997955]
+	Ordinal0 [0x00007FF7555794C0+824512]
+	Ordinal0 [0x00007FF75557A9F8+829944]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF7557E0588+134344]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF7557C9EB5+42485]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF7557CCF9C+55004]
+	Ordinal0 [0x00007FF755632E94+1584788]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF7559243EB+1461035]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF7559283B4+1477364]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF75592850D+1477709]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF7559304D9+1510425]
+	BaseThreadInitThunk [0x00007FFB6A3A7034+20]
+	RtlUserThreadStart [0x00007FFB6B0026A1+33]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init>(EdgeDriver.java:154)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.&lt;init>(CEdgeDriver.java:14)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewEdgeChromiumDriver(DriverFactory.java:670)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:382)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:254)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+"/>
+         <system-out><![CDATA[2022-11-01 15:03:03 - [TEST_CASE][FAILED] - Test Cases/TestCaseOnOrangeHrmPage: Test Cases/TestCaseOnOrangeHrmPage FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'https://opensource-demo.orangehrmlive.com/'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at TestCaseOnOrangeHrmPage.run(TestCaseOnOrangeHrmPage:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667295166589.run(TempTestSuite1667295166589.groovy:36)
+Caused by: org.openqa.selenium.SessionNotCreatedException: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 105
+Current browser version is 107.0.1418.26 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'A4G618-PC', ip: '192.168.71.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: driver.version: CEdgeDriver
+remote stacktrace: Backtrace:
+	Microsoft::Applications::Events::EventProperties::SetProperty [0x00007FF755982352+17554]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF75591ECA2+1438690]
+	Ordinal0 [0x00007FF755549345+627525]
+	Ordinal0 [0x00007FF7555773D4+816084]
+	Ordinal0 [0x00007FF7555728B3+796851]
+	Ordinal0 [0x00007FF75556D9F0+776688]
+	Ordinal0 [0x00007FF7555A969F+1021599]
+	Ordinal0 [0x00007FF7555A3A43+997955]
+	Ordinal0 [0x00007FF7555794C0+824512]
+	Ordinal0 [0x00007FF75557A9F8+829944]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF7557E0588+134344]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF7557C9EB5+42485]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF7557CCF9C+55004]
+	Ordinal0 [0x00007FF755632E94+1584788]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF7559243EB+1461035]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF7559283B4+1477364]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF75592850D+1477709]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF7559304D9+1510425]
+	BaseThreadInitThunk [0x00007FFB6A3A7034+20]
+	RtlUserThreadStart [0x00007FFB6B0026A1+33]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:154)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.<init>(CEdgeDriver.java:14)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewEdgeChromiumDriver(DriverFactory.java:670)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:382)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:254)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+
+
+2022-11-01 15:03:03 - [TEST_STEP][FAILED] - openBrowser("https://opensource-demo.orangehrmlive.com/"): Unable to open browser with url: 'https://opensource-demo.orangehrmlive.com/' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'https://opensource-demo.orangehrmlive.com/'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at TestCaseOnOrangeHrmPage.run(TestCaseOnOrangeHrmPage:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667295166589.run(TempTestSuite1667295166589.groovy:36)
+Caused by: org.openqa.selenium.SessionNotCreatedException: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 105
+Current browser version is 107.0.1418.26 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'A4G618-PC', ip: '192.168.71.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: driver.version: CEdgeDriver
+remote stacktrace: Backtrace:
+	Microsoft::Applications::Events::EventProperties::SetProperty [0x00007FF755982352+17554]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF75591ECA2+1438690]
+	Ordinal0 [0x00007FF755549345+627525]
+	Ordinal0 [0x00007FF7555773D4+816084]
+	Ordinal0 [0x00007FF7555728B3+796851]
+	Ordinal0 [0x00007FF75556D9F0+776688]
+	Ordinal0 [0x00007FF7555A969F+1021599]
+	Ordinal0 [0x00007FF7555A3A43+997955]
+	Ordinal0 [0x00007FF7555794C0+824512]
+	Ordinal0 [0x00007FF75557A9F8+829944]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF7557E0588+134344]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF7557C9EB5+42485]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF7557CCF9C+55004]
+	Ordinal0 [0x00007FF755632E94+1584788]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF7559243EB+1461035]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF7559283B4+1477364]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF75592850D+1477709]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF7559304D9+1510425]
+	BaseThreadInitThunk [0x00007FFB6A3A7034+20]
+	RtlUserThreadStart [0x00007FFB6B0026A1+33]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:154)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.<init>(CEdgeDriver.java:14)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewEdgeChromiumDriver(DriverFactory.java:670)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:382)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:254)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at Script1667291802725.run(Script1667291802725.groovy:20)
+	... 16 more
+)
+
+2022-11-01 15:03:03 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2022-11-01 15:03:03 - [MESSAGE][INFO] - Action delay is set to 2,000 milliseconds
+
+2022-11-01 15:03:05 - [MESSAGE][FAILED] - Unable to open browser with url: 'https://opensource-demo.orangehrmlive.com/' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'https://opensource-demo.orangehrmlive.com/'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at TestCaseOnOrangeHrmPage.run(TestCaseOnOrangeHrmPage:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667295166589.run(TempTestSuite1667295166589.groovy:36)
+Caused by: org.openqa.selenium.SessionNotCreatedException: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 105
+Current browser version is 107.0.1418.26 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'A4G618-PC', ip: '192.168.71.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: driver.version: CEdgeDriver
+remote stacktrace: Backtrace:
+	Microsoft::Applications::Events::EventProperties::SetProperty [0x00007FF755982352+17554]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF75591ECA2+1438690]
+	Ordinal0 [0x00007FF755549345+627525]
+	Ordinal0 [0x00007FF7555773D4+816084]
+	Ordinal0 [0x00007FF7555728B3+796851]
+	Ordinal0 [0x00007FF75556D9F0+776688]
+	Ordinal0 [0x00007FF7555A969F+1021599]
+	Ordinal0 [0x00007FF7555A3A43+997955]
+	Ordinal0 [0x00007FF7555794C0+824512]
+	Ordinal0 [0x00007FF75557A9F8+829944]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF7557E0588+134344]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF7557C9EB5+42485]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF7557CCF9C+55004]
+	Ordinal0 [0x00007FF755632E94+1584788]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF7559243EB+1461035]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF7559283B4+1477364]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF75592850D+1477709]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF7559304D9+1510425]
+	BaseThreadInitThunk [0x00007FFB6A3A7034+20]
+	RtlUserThreadStart [0x00007FFB6B0026A1+33]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:154)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.<init>(CEdgeDriver.java:14)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewEdgeChromiumDriver(DriverFactory.java:670)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:382)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:254)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at Script1667291802725.run(Script1667291802725.groovy:20)
+	... 16 more
+)]]></system-out>
+         <system-err><![CDATA[2022-11-01 15:03:03 - [TEST_CASE][FAILED] - Test Cases/TestCaseOnOrangeHrmPage: Test Cases/TestCaseOnOrangeHrmPage FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'https://opensource-demo.orangehrmlive.com/'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at TestCaseOnOrangeHrmPage.run(TestCaseOnOrangeHrmPage:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667295166589.run(TempTestSuite1667295166589.groovy:36)
+Caused by: org.openqa.selenium.SessionNotCreatedException: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 105
+Current browser version is 107.0.1418.26 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'A4G618-PC', ip: '192.168.71.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: driver.version: CEdgeDriver
+remote stacktrace: Backtrace:
+	Microsoft::Applications::Events::EventProperties::SetProperty [0x00007FF755982352+17554]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF75591ECA2+1438690]
+	Ordinal0 [0x00007FF755549345+627525]
+	Ordinal0 [0x00007FF7555773D4+816084]
+	Ordinal0 [0x00007FF7555728B3+796851]
+	Ordinal0 [0x00007FF75556D9F0+776688]
+	Ordinal0 [0x00007FF7555A969F+1021599]
+	Ordinal0 [0x00007FF7555A3A43+997955]
+	Ordinal0 [0x00007FF7555794C0+824512]
+	Ordinal0 [0x00007FF75557A9F8+829944]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF7557E0588+134344]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF7557C9EB5+42485]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF7557CCF9C+55004]
+	Ordinal0 [0x00007FF755632E94+1584788]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF7559243EB+1461035]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF7559283B4+1477364]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF75592850D+1477709]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF7559304D9+1510425]
+	BaseThreadInitThunk [0x00007FFB6A3A7034+20]
+	RtlUserThreadStart [0x00007FFB6B0026A1+33]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:154)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.<init>(CEdgeDriver.java:14)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewEdgeChromiumDriver(DriverFactory.java:670)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:382)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:254)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-11-01 15:02:52 - [TEST_SUITE][FAILED] - SecondTestSuite: Test Cases/TestCaseOnOrangeHrmPage FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'https://opensource-demo.orangehrmlive.com/'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at TestCaseOnOrangeHrmPage.run(TestCaseOnOrangeHrmPage:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667295166589.run(TempTestSuite1667295166589.groovy:36)
+Caused by: org.openqa.selenium.SessionNotCreatedException: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 105
+Current browser version is 107.0.1418.26 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'A4G618-PC', ip: '192.168.71.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: driver.version: CEdgeDriver
+remote stacktrace: Backtrace:
+	Microsoft::Applications::Events::EventProperties::SetProperty [0x00007FF755982352+17554]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF75591ECA2+1438690]
+	Ordinal0 [0x00007FF755549345+627525]
+	Ordinal0 [0x00007FF7555773D4+816084]
+	Ordinal0 [0x00007FF7555728B3+796851]
+	Ordinal0 [0x00007FF75556D9F0+776688]
+	Ordinal0 [0x00007FF7555A969F+1021599]
+	Ordinal0 [0x00007FF7555A3A43+997955]
+	Ordinal0 [0x00007FF7555794C0+824512]
+	Ordinal0 [0x00007FF75557A9F8+829944]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF7557E0588+134344]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF7557C9EB5+42485]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF7557CCF9C+55004]
+	Ordinal0 [0x00007FF755632E94+1584788]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF7559243EB+1461035]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF7559283B4+1477364]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF75592850D+1477709]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF7559304D9+1510425]
+	BaseThreadInitThunk [0x00007FFB6A3A7034+20]
+	RtlUserThreadStart [0x00007FFB6B0026A1+33]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:154)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.<init>(CEdgeDriver.java:14)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewEdgeChromiumDriver(DriverFactory.java:670)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:382)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:254)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2022-11-01 15:02:52 - [TEST_SUITE][FAILED] - SecondTestSuite: Test Cases/TestCaseOnOrangeHrmPage FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'https://opensource-demo.orangehrmlive.com/'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at TestCaseOnOrangeHrmPage.run(TestCaseOnOrangeHrmPage:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667295166589.run(TempTestSuite1667295166589.groovy:36)
+Caused by: org.openqa.selenium.SessionNotCreatedException: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 105
+Current browser version is 107.0.1418.26 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'A4G618-PC', ip: '192.168.71.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: driver.version: CEdgeDriver
+remote stacktrace: Backtrace:
+	Microsoft::Applications::Events::EventProperties::SetProperty [0x00007FF755982352+17554]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF75591ECA2+1438690]
+	Ordinal0 [0x00007FF755549345+627525]
+	Ordinal0 [0x00007FF7555773D4+816084]
+	Ordinal0 [0x00007FF7555728B3+796851]
+	Ordinal0 [0x00007FF75556D9F0+776688]
+	Ordinal0 [0x00007FF7555A969F+1021599]
+	Ordinal0 [0x00007FF7555A3A43+997955]
+	Ordinal0 [0x00007FF7555794C0+824512]
+	Ordinal0 [0x00007FF75557A9F8+829944]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF7557E0588+134344]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF7557C9EB5+42485]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF7557CCF9C+55004]
+	Ordinal0 [0x00007FF755632E94+1584788]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF7559243EB+1461035]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF7559283B4+1477364]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF75592850D+1477709]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF7559304D9+1510425]
+	BaseThreadInitThunk [0x00007FFB6A3A7034+20]
+	RtlUserThreadStart [0x00007FFB6B0026A1+33]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:154)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.<init>(CEdgeDriver.java:14)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewEdgeChromiumDriver(DriverFactory.java:670)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:382)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:254)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

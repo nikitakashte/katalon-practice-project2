@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SecondTestSuite,Chrome 106.0.0.0,,,2022-11-01 15:04:28,2022-11-01 15:04:57,28.683s,PASSED
+,,,,,,,
+Test Cases/TestCaseOnOrangeHrmPage,Chrome 106.0.0.0,,,2022-11-01 15:04:29,2022-11-01 15:04:57,28.164s,PASSED
+"openBrowser(""https://opensource-demo.orangehrmlive.com/"")",Chrome 106.0.0.0,,,2022-11-01 15:04:29,2022-11-01 15:04:42,13.005s,PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/input_Username_username""), ""Admin"")",Chrome 106.0.0.0,,,2022-11-01 15:04:42,2022-11-01 15:04:48,5.582s,PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/input_Password_password""), ""admin123"")",Chrome 106.0.0.0,,,2022-11-01 15:04:48,2022-11-01 15:04:53,4.975s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/button_Login""))",Chrome 106.0.0.0,,,2022-11-01 15:04:53,2022-11-01 15:04:56,2.681s,PASSED
+closeBrowser(),Chrome 106.0.0.0,,,2022-11-01 15:04:56,2022-11-01 15:04:57,1.007s,PASSED

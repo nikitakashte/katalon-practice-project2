@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>legend_Checkbox Example</name>
+   <tag></tag>
+   <elementGuidId>cc0b41ce-c931-4df5-b112-ac1649ee77d8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#checkbox-example > fieldset > legend</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='checkbox-example']/fieldset/legend</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>legend</value>
+      <webElementGuid>41958474-5feb-4de3-a0bd-a1ccbf96e36e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Checkbox Example</value>
+      <webElementGuid>0f5e7cce-2ed5-42fe-90a8-a78fbb28d408</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;checkbox-example&quot;)/fieldset[1]/legend[1]</value>
+      <webElementGuid>0afcdf44-f20d-4e98-996f-b54e2cf5be61</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='checkbox-example']/fieldset/legend</value>
+      <webElementGuid>4de5b6cf-f4ed-4750-b87b-a46ee0646a51</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dropdown Example'])[1]/following::legend[1]</value>
+      <webElementGuid>e1b6edc5-076e-4973-b0ca-5116dd159817</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Suggession Class Example'])[1]/following::legend[2]</value>
+      <webElementGuid>11311717-c729-4ecd-aede-d1157a8a1aac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Checkbox Example']/parent::*</value>
+      <webElementGuid>0934fc8e-1a9f-4451-9ea8-325898bde319</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/fieldset/legend</value>
+      <webElementGuid>21c4f443-de2e-4197-a8ac-9bb3cefe5816</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//legend[(text() = 'Checkbox Example' or . = 'Checkbox Example')]</value>
+      <webElementGuid>a1371edd-5d05-4aa1-86f7-3f795ba9a697</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
