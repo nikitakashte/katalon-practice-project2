@@ -31,4 +31,4 @@ WebUI.setText(findTestObject('Object Repository/Page_Rahul Shetty Academy/input_
 
 WebUI.click(findTestObject('Object Repository/Page_Rahul Shetty Academy/input_Forgot Password_commit'))
 
-WebUI.closeBrowser()
+WebUI.closeBrowser();

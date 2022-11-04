@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+FirstTestSuite,,,,2022-11-03 22:22:19,2022-11-03 22:22:32,12.527s,FAILED
+,,,,,,,
+Test Cases/TestCaseLogInPage,,,,2022-11-03 22:22:25,2022-11-03 22:22:26,1.204s,FAILED
+"openBrowser(""https://rahulshettyacademy.com/AutomationPractice/ "")",,,,2022-11-03 22:22:25,2022-11-03 22:22:26,1.193s,FAILED
+,,,,,,,
+Test Cases/TestCaseOnDemoPage,,,,2022-11-03 22:22:30,2022-11-03 22:22:32,1.166s,FAILED
+"openBrowser(""https://rahulshettyacademy.com/AutomationPractice/"")",,,,2022-11-03 22:22:30,2022-11-03 22:22:32,1.155s,FAILED
